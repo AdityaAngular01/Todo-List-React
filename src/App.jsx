@@ -75,7 +75,7 @@ function App() {
               className="bg-slate-500 w-20 h-10 rounded-lg ml-2"
               onClick={editIndex === null ? handleAddTodo : handleEditTodo}
             >
-              {editIndex !== null ? "Edit" : "Add"}
+              {editIndex !== null ? "Save" : "Add"}
             </button>
           </div>
         </div>
